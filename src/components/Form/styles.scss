@@ -1,5 +1,5 @@
-.wrapper {
-    background-color: rgb(56, 54, 54);
+.form__wrapper {
+    background-color: rgb(105, 103, 103);
     width: 80%;
     height: 220px;
     margin: 5% auto;
@@ -58,8 +58,22 @@
 .form__button-submit--text {
     transform: skew(40deg);
 }
+.numbers-list {
+    width: 50%;
+    transition: 0.3s;
+    border-radius: 6px;
+    margin: 3% auto;
+    padding: 5px 10px;
+    background-color: rgb(105, 103, 103);
+    color: white;
+    font-size: 1.2em;
+    word-wrap: break-word;
+}
+.numbers-list__headline {
+    text-align: center;
+}
 @media screen and (max-width: 950px) {
-    .wrapper {
+    .form__wrapper {
         width: 95%;
         transition: 0.3s;
     }
@@ -83,6 +97,10 @@
         transform: skew(0);
         transition: 0.3s;
     }
+    .numbers-list {
+        width: 60%;
+        transition: 0.3s;
+    }
 }
 @media screen and (max-width: 520px) {
     .form__input {
@@ -94,11 +112,19 @@
         font-size: 0.6em;
         transition: 0.3s;
     }
+    .numbers-list {
+        width: 75%;
+        transition: 0.3s;
+    }
 }
 @media screen and (max-width: 258px) {
     .form__button {
         width: 40%;
         font-size: 0.4em;
+        transition: 0.3s;
+    }
+    .numbers-list {
+        width: 90%;
         transition: 0.3s;
     }
 }
