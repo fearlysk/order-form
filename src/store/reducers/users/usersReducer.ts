@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { RootState } from '../../store';
 import type { PayloadAction } from '@reduxjs/toolkit';
-import { addNumberToHistory } from '../../../components/api/numbers';
+import { addNumberToHistory } from '../../../api/numbers';
 import { INumber } from '../../../interfaces/INumber';
 
 export interface NumbersState {
